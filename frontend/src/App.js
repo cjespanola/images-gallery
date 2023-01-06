@@ -80,7 +80,7 @@ const App = () => {
       {loading ? (
         <Spinner />
       ) : (
-        <Container className="mt-4">
+        <Container direction="horizontal" gap={3}>
           {images.length ? (
             <Row xs={1} md={2} lg={3}>
               {images.map((image, i) => (

@@ -7,7 +7,10 @@ const Search = ({ word, setWord, handleSubmit }) => {
       <Row className="justify-content-center">
         <Col xs={12} md={8} lg={6}>
           <Form onSubmit={handleSubmit}>
-            <Form.Row>
+            <Form.Row
+              className="me-auto"
+              style={{ marginBottom: "80px", marginTop: "50px" }}
+            >
               <Col xs={9}>
                 <Form.Control
                   type="text"
