@@ -16,7 +16,6 @@ const Header = (title) => {
             style={{
               marginBottom: "15px",
               marginTop: "15px",
-
               maxWidth: "30rem",
               maxHeight: "3rem",
             }}
